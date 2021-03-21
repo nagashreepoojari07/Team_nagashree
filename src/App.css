@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 5px;
 }
 body{
   background-color: #f5f6fa;
@@ -13,4 +13,12 @@ body{
 .app_stats{
   display: flex;
   justify-content: space-between;
+
+}
+.app{
+  display: flex;
+  justify-content: space-around;
+}
+.app_left{
+  flex: 0.8;
 }
