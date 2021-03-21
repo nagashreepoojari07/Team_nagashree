@@ -1,17 +1,17 @@
-import React from 'react'
-import {Card, CardContent, Typography} from '@material-ui/core'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-function InfoBox({title, cases, total}) {
-    return (
-        <Card className="infoBox">
-            <CardContent>
-                <Typography color="textSecondary" className="infoBox_title"></Typography>
-                <h3 className="infoBox_cases">{cases}</h3>
-                <Typography className="infoBox_total">{total} Total</Typography>
-            </CardContent>
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-        </Card>
-    )
-}
-
-export default InfoBox
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
