@@ -52,7 +52,7 @@ const onCountryChange = async (event)=>{
     <div className="app">
     <div className="app__left">
     <div class="app__header">
-    <h1>Covid-19 tracker</h1>
+    <h1>COVID-19 TRACKER</h1>
     <FormControl className="app__dropdown">
         <Select variant="outlined" onChange ={onCountryChange} value ={country}>
         <MenuItem value="worldwide">WorldWide</MenuItem>
